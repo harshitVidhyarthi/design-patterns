@@ -9,7 +9,6 @@ public class AbstractFactoryPattern {
 		PhoneFactory appleFactory = FactoryProducer.getFactory("apple");
 		PhoneFactory vivoFactory = FactoryProducer.getFactory("vivo");
 
-		
 		Phone samsung = samsungFactory.getPhone("model-1");
 		Phone apple = appleFactory.getPhone("model-2");
 		Phone vivo = vivoFactory.getPhone("model-3");
